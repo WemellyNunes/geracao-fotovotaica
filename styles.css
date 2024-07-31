@@ -67,7 +67,8 @@ body{
 
 .link {
     border: 1px solid #06974a;
-    color: #06974a;
+    background-color: #06974a;
+    color: #ffffff;
     padding: 1vh;
     border-radius: 5px;
 }
