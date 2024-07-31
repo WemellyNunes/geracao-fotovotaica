@@ -83,6 +83,12 @@ body{
     transition: opacity 1s ease-in-out; /* Duração e efeito da transição */
 }
 
+.subtitulo {
+    font-size: 26px;
+    color: #06974a;
+    font-weight: 400;  
+}
+
 footer {
     color: #ffffff;
     background-color: #06974a;
