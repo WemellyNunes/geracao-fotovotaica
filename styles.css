@@ -84,6 +84,7 @@ body{
 }
 
 .subtitulo {
+    display: flex;
     font-size: 26px;
     color: #06974a;
     font-weight: 400;  
