@@ -70,12 +70,12 @@ body {
 
 .carousel-item {
   transition: opacity 1s ease-in-out;
-  width: 30%;
-  height: 50%
+  width: 20%;
+  height: 30%
 }
 
 .carousel-item img {
-    max-width: 40%; /* Reduzido de 100% para 90% */
+    max-width: 30%; /* Reduzido de 100% para 90% */
     height: auto;
     margin: 0 auto;
 }
@@ -109,6 +109,6 @@ footer {
     }
 
   .carousel-item img {
-        max-width: 100%;
+        max-width: 80%;
     }
 }
