@@ -1,25 +1,24 @@
 @import url('https://fonts.cdnfonts.com/css/rawline');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-body{
+body {
     font-size: 100%;
     font-family: 'Rawline', sans-serif;
 }
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0.5vh;
-    box-shadow: 5px 2px 5px rgba(157, 156, 156, 0.41);  
+    box-shadow: 5px 2px 5px rgba(157, 156, 156, 0.41);
 }
 
 .principal {
@@ -35,34 +34,24 @@ body{
 
 .sun-img {
     max-width: 8.5vh;
-    gap: 50px;
 }
-
 
 .titulo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
     color: #06974a;
     font-size: 26px;
-    font-weight: 400;  
-    gap: 100px;  
-    padding-top: 1.5vh;                            
+    font-weight: 400;
+    padding-top: 1.5vh;
 }
 
-.gera-anu{
+.gera-anu {
     display: flex;
-    flex-direction: row;
-    padding-left: 2vh;
+    align-items: center;
 }
 
 .gera-men {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding-right: 2vh;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .link {
@@ -73,21 +62,20 @@ body{
     border-radius: 5px;
 }
 
-.link:hover{
+.link:hover {
     background-color: #b7e9cf;
     color: #06974a;
     outline: none;
 }
 
 .carousel-item {
-    transition: opacity 1s ease-in-out; /* Duração e efeito da transição */
+    transition: opacity 1s ease-in-out;
 }
 
 .subtitulo {
-    display: flex;
     font-size: 26px;
-    color: #203226;
-    font-weight: 400;  
+    color: #114522;
+    font-weight: 400;
 }
 
 footer {
@@ -96,11 +84,19 @@ footer {
     padding: 1rem;
     text-align: center;
     width: 100%;
-    position: relative;
 }
 
-span{
-    background-color: #1351b4;
-}
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
 
-     
+    .gera-anu,
+    .gera-men {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
