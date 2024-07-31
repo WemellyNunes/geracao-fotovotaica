@@ -70,8 +70,6 @@ body {
 
 .carousel-item {
   transition: opacity 1s ease-in-out;
-  width: 20%;
-  height: 30%
 }
 
 .carousel-item img {
