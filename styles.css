@@ -30,6 +30,7 @@ body{
     height: 100vh;
     text-align: center;
     margin-top: 0;
+    background-color: #9ad9b7;
 }
 
 .sun-img {
@@ -44,7 +45,7 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
-    color: #1351b4;
+    color: #06974a;
     font-size: 26px;
     font-weight: 400;  
     gap: 100px;  
@@ -64,12 +65,26 @@ body{
     padding-right: 2vh;
 }
 
+.link {
+    border: 1px solid #06974a;
+    color: #06974a;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: #b7e9cf;
+    color: #06974a;
+    outline: none;
+}
+
 .carousel-item {
     transition: opacity 1s ease-in-out; /* Duração e efeito da transição */
 }
 
 footer {
-    color: #484849;
+    color: #ffffff;
+    background-color: #06974a;
     padding: 1rem;
     text-align: center;
     width: 100%;
