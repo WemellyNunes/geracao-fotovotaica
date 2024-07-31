@@ -79,7 +79,6 @@ img {
 
 .carousel-item img {
     max-width: 70%; /* Reduzido de 100% para 90% */
-    height: auto;
     margin: 0 auto;
 }
 
