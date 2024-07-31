@@ -33,7 +33,7 @@ body {
 }
 
 .sun-img {
-    max-width: 80%;
+    max-width: 8.5vh;
 }
 
 .titulo {
@@ -72,6 +72,12 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+.carousel-item img {
+    max-width: 90%; /* Reduzido de 100% para 90% */
+    height: auto;
+    margin: 0 auto;
+}
+
 .subtitulo {
     font-size: 26px;
     color: #114522;
@@ -98,5 +104,9 @@ footer {
         padding-right: 0;
         justify-content: center;
         margin-bottom: 1rem;
+    }
+
+  .carousel-item img {
+        max-width: 100%;
     }
 }
