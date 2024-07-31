@@ -70,11 +70,14 @@ body {
 
 .carousel-item {
   transition: opacity 1s ease-in-out;
-  max-width: 50%;
-  height: auto;/* Reduzido de 100% para 90% */
-  margin: 0;
+  padding-top: 3vh;
 }
 
+.carousel-item img {
+    max-width: 100%; /* Reduzido de 100% para 90% */
+    height: auto;
+    margin: 0 auto;
+}
 
 .subtitulo {
     font-size: 26px;
@@ -104,4 +107,7 @@ footer {
         margin-bottom: 1rem;
     }
 
+  .carousel-item img {
+        max-width: 100%;
+    }
 }
