@@ -70,16 +70,13 @@ body {
 
 .carousel-item {
   transition: opacity 1s ease-in-out;
+  max-width: 70%;
+  height: auto;
 }
 
-img {
-  widht: 100px;
-  height: 200px;
-}
 
 .carousel-item img {
     max-width: 70%; /* Reduzido de 100% para 90% */
-    margin: 0 auto;
 }
 
 .subtitulo {
