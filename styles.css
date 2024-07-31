@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/rawline');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Rawline', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh;
+    box-shadow: 5px 2px 5px rgba(157, 156, 156, 0.41);  
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: 0;
+}
+
+.sun-img {
+    max-width: 8.5vh;
+    gap: 50px;
+}
+
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #1351b4;
+    font-size: 26px;
+    font-weight: 400;  
+    gap: 100px;  
+    padding-top: 1.5vh;                            
+}
+
+.gera-anu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vh;
+}
+
+.gera-men {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-right: 2vh;
+}
+
+.carousel-item {
+    transition: opacity 1s ease-in-out; /* Duração e efeito da transição */
+}
+
+footer {
+    color: #484849;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+span{
+    background-color: #1351b4;
+}
+
+     
